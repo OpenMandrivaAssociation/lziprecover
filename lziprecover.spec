@@ -44,6 +44,9 @@ members can be partially recovered writing it to stdout.
 %configure
 %make
 
+%check
+make check
+
 %install
 %makeinstall_std
 
