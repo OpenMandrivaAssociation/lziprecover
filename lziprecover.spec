@@ -44,9 +44,6 @@ members can be partially recovered writing it to stdout.
 %configure
 %make
 
-%check
-make check
-
 %install
 %makeinstall_std
 
@@ -60,3 +57,10 @@ make check
 
 %postun
 %_remove_install_info
+
+
+%changelog
+* Tue Mar 13 2012 Dmitry Mikhirev <dmikhirev@mandriva.org> 1.13-1
++ Revision: 784563
+- imported package lziprecover
+
