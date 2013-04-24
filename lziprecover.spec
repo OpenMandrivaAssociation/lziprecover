@@ -53,8 +53,6 @@ members can be partially recovered writing it to stdout.
 %{_infodir}/lziprecover.info*
 
 
-%postun
-%_remove_install_info
 
 
 %changelog
