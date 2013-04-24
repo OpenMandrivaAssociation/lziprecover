@@ -52,8 +52,6 @@ members can be partially recovered writing it to stdout.
 %{_mandir}/man1/lziprecover.1*
 %{_infodir}/lziprecover.info*
 
-%post
-%_install_info
 
 %postun
 %_remove_install_info
