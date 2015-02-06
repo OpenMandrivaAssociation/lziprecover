@@ -1,7 +1,7 @@
 Name:		lziprecover
 Summary:	Data recovery tool and decompressor for lzipped files
 Version:	1.13
-Release:	2
+Release:	3
 License:	GPLv3+
 Group:		Archiving/Compression
 URL:		http://www.nongnu.org/lzip/lziprecover.html
