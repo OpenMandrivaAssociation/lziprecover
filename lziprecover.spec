@@ -1,7 +1,7 @@
 Name:		lziprecover
 Summary:	Data recovery tool and decompressor for lzipped files
-Version:	1.13
-Release:	3
+Version:	1.21
+Release:	1
 License:	GPLv3+
 Group:		Archiving/Compression
 URL:		http://www.nongnu.org/lzip/lziprecover.html
@@ -38,25 +38,16 @@ If the files are too damaged for lziprecover to repair them, data from damaged
 members can be partially recovered writing it to stdout.
 
 %prep
-%setup -q
+%autosetup -p1
 
 %build
 %configure
-%make
+%make_build
 
 %install
-%makeinstall_std
+%make_install
 
 %files
 %{_bindir}/lziprecover
 %{_mandir}/man1/lziprecover.1*
 %{_infodir}/lziprecover.info*
-
-
-
-
-%changelog
-* Tue Mar 13 2012 Dmitry Mikhirev <dmikhirev@mandriva.org> 1.13-1
-+ Revision: 784563
-- imported package lziprecover
-
