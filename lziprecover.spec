@@ -1,7 +1,7 @@
 %define _empty_manifest_terminate_build 0
 Name:		lziprecover
 Summary:	Data recovery tool and decompressor for lzipped files
-Version:	1.24
+Version:	1.25
 Release:	1
 License:	GPLv3+
 Group:		Archiving/Compression
