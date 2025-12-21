@@ -7,6 +7,11 @@ License:	GPLv3+
 Group:		Archiving/Compression
 URL:		https://www.nongnu.org/lzip/lziprecover.html
 Source0:	https://download.savannah.gnu.org/releases/lzip/%{name}-%{version}.tar.lz
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires: lzip
 
 %description
